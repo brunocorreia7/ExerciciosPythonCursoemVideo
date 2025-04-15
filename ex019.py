@@ -10,5 +10,4 @@ for i in range(1, 5):
 
 escolhido = random.choice(alunos)
 
-
 print(f"O aluno escolhido foi: {escolhido}")
