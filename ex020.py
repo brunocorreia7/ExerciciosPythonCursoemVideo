@@ -11,5 +11,6 @@ for i in range(1, 5):
 random.shuffle(lista)
 
 print('A ordem de apresentação será: ')
+
 print(lista)
 
