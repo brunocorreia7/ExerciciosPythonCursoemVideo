@@ -11,6 +11,7 @@ print('-=-' * 20)
 jogador = int(input('Em que número eu pensei? '))
 print('PROCESSANDO...')
 sleep(3)
+
 if jogador == computador:
     print('PARABÉNS! Você conseguiu me vencer!')
 else:
