@@ -8,3 +8,6 @@ if velocidade > 80:
     multa = (velocidade - 80) * 7
     
     print(f'A sua multa é de R$ {multa:.2f}')
+
+else:
+    print('Tudo certo! Você está dentro do limite de velocidade.')
