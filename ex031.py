@@ -3,6 +3,7 @@
 distancia = float(input('Qual a distancia da sua viagem? '))
 
 print(f'você vai começar uma viagem de {distancia}km.')
+
 if distancia <= 200:
     preco = distancia * 0.50
 else:
