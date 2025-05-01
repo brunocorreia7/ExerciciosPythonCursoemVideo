@@ -4,7 +4,6 @@ print('=-'*20)
 print('Analisador de triângulos')
 print('=-'*20)
 
-
 for c in range(1,4):
     r = float(input(f'digite o comprimento da reta {c}: '))
     if c == 1:
