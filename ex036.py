@@ -6,6 +6,7 @@ salario = float(input('Qual o seu salário? R$ '))
 anos = int(input('Em quantos anos você vai pagar? '))
 prestacao = casa / (anos * 12)
 porcentagem = salario * 0.3
+
 print(f'A prestação mensal será de R$ {prestacao:.2f}')
 print(f'30% do seu salário é R$ {porcentagem:.2f}')
 if prestacao <= porcentagem:
