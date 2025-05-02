@@ -9,6 +9,7 @@ porcentagem = salario * 0.3
 
 print(f'A prestação mensal será de R$ {prestacao:.2f}')
 print(f'30% do seu salário é R$ {porcentagem:.2f}')
+
 if prestacao <= porcentagem:
     print('Empréstimo aprovado!')
 else:
