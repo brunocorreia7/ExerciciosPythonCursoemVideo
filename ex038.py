@@ -4,12 +4,12 @@
 # - Não existe valor maior, os dois são iguais
 
 numeros = []
+
 for c in range(1, 3):
     n = int(input(f'Digite o {c}° número: '))
     numeros.append(n)
 
 n1, n2 = numeros
-
 if n1 > n2:
     print(f'O primeiro valor é maior: {n1}')
 elif n2 > n1:
