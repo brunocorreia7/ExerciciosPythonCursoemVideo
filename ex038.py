@@ -4,7 +4,6 @@
 # - Não existe valor maior, os dois são iguais
 
 numeros = []
-
 for c in range(1, 3):
     n = int(input(f'Digite o {c}° número: '))
     numeros.append(n)
