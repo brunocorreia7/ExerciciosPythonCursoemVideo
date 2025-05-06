@@ -8,7 +8,6 @@ notas = []
 for c in range(1, 3):
     n = float(input(f'Digite a {c}° nota: '))
     notas.append(n)
-
 nota1, nota2 = notas
 media = (nota1 + nota2) / 2
 print(f'A média entre {nota1} e {nota2} é {media:.1f}.')
