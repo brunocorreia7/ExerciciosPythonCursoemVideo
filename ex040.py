@@ -2,6 +2,7 @@
 # - Média abaixo de 5.0: REPROVADO
 # - Média entre 5.0 e 6.9: RECUPERAÇÃO  
 # - Média 7.0 ou superior: APROVADO
+
 notas = []
 
 for c in range(1, 3):
