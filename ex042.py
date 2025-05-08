@@ -17,6 +17,7 @@ for c in range(1,4):
         r3 = r
 if r1 + r2 > r3 and r1 + r3 > r2 and r2 + r3 > r1:
     print('os seguimentos acima podem formar um triângulo')
+    
     if r1 == r2 and r2 == r3:
         print('triângulo EQUILÁTERO')
     elif r1 == r2 or r1 == r3 or r2 == r3:
