@@ -6,6 +6,7 @@
 
 preco = float(input('Digite o preço do produto: '))
 print('''Formas de pagamento:
+
 [ 1 ] À vista dinheiro/cheque
 [ 2 ] À vista no cartão
 [ 3 ] 2x no cartão
