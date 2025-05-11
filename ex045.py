@@ -8,6 +8,7 @@ print('''Suas opções:
 [ 0 ] Pedra
 [ 1 ] Papel
 [ 2 ] Tesoura''')
+
 jogador = int(input('Qual é a sua jogada? '))
 print('-=' * 11)
 print(f'Computador jogou {itens[computador]}')
